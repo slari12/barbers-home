@@ -1,0 +1,331 @@
+@import url(//db.onlinewebfonts.com/c/fc13291877fa0c0e6e6d614326699903?family=KeplerW03-LightSCdCp);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#section-1 {
+  background-image: url(/img/jens-lindner-144162-unsplash.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+#contact-head {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 10pt;
+  justify-content: space-between;
+  color: #daa520;
+  padding: 13px 0 13px 0px;
+}
+#contact-head .container,
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+header {
+  background-color: #0d0d0d96;
+  height: 80px;
+  padding-top: 9px;
+}
+h2 {
+  font-family: "KeplerW03-LightSCdCp";
+  font-size: 45px;
+  font-weight: 500;
+  color: #daa520;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  font-size: smaller;
+  text-decoration: none;
+  flex-direction: column;
+  color: white;
+}
+a:hover {
+  color: #daa520;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+  padding-top: 18px;
+}
+h1 {
+  font-family: "KeplerW03-LightSCdCp";
+  font-size: 45pt;
+  font-weight: 100;
+  color: white;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+.buttons input[type=submit]{
+  width: 150px;
+  height: 38px;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: smaller;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+input[type=submit]:hover {
+  color: white;
+  background-color: #daa520;
+  border: none;
+}
+.landing {
+  margin-top: 180px;
+}
+#section-2 p {
+  color: gray;
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
+}
+#section-2 {
+  height: 450px;
+  width: 100%;
+}
+.landing2 {
+  margin-top: 100px;
+  display: flex;
+}
+.landing2-cap {
+  padding-right: 80px;
+}
+.h1-style {
+  color: #daa520;
+  text-transform: uppercase;
+  font-size: 30pt;
+}
+.h3-style {
+  font-family: "KeplerW03-LightSCdCp";
+  color: darkgray;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 16pt;
+}
+input[type=submit]{
+  width: 150px;
+  height: 38px;
+  margin-top: 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: smaller;
+  background-color: #daa520;
+  color: white;
+  border: none;
+}
+#section-3 {
+  background-color: #f9f9f9;
+  height: 770px;
+  width: 100%;
+}
+.landing3 {
+  padding-top: 95px;
+}
+.landing3 h1 {
+  margin-bottom: 20px;
+}
+#sec3-cap {
+  text-align: center;
+}
+#services {
+  display: flex;
+  text-align: center;
+}
+.per-services {
+  background-color: #fafafa;
+  position: relative;
+  width: 322px;
+  height: 462px;
+  border: 0.5px solid rgb(221, 221, 221);
+}
+#services .per-services {
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.per-services:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.096);
+}
+#services .per-services:hover h3 {
+  color: #daa520;
+}
+#services .per-services:hover input {
+  color: white;
+  background-color: #daa520;
+  border: none;
+}
+.per-services h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+  color: #444444;
+}
+.per-services p {
+  color: darkgray;
+  font-weight: 400;
+  font-size: 11pt;
+  padding: 10px 0 17px 0;
+}
+.per-services input {
+  width: 150px;
+  height: 38px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: smaller;
+  background-color: #444444;
+  color: white;
+  border: 1px solid white;
+}
+.child-per-services {
+  padding: 43px 37px 0px 37px;
+}
+.landing4 {
+  height: 433px;
+  width: 100%;
+  background-image: url(/img/background-1.png);
+  background-repeat: no-repeat;
+}
+.landing4 p {
+  font-size: 11pt;
+  line-height: 20px;
+}
+.landing4-cap {
+  width: 53%;
+  padding: 50px 17px 10px 240px;
+}
+.per-services5 {
+  background-color: #fafafa;
+  position: relative;
+  width: 322px;
+  height: 462px;
+  border: 0.5px solid rgb(221, 221, 221);
+}
+.per-services5:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.096);
+}
+.per-services5 h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+  color: #444444;
+}
+#services5 {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  height: 550px;
+}
+.per-services5 p {
+  color: darkgray;
+  font-weight: 400;
+  font-size: 11pt;
+}
+.parent-team {
+  align-self: auto;
+}
+#section-6 {
+  background-image: url(/img/barber-brush-comb-897271.png);
+  background-repeat: no-repeat;
+  height: 295px;
+}
+#disc {
+  padding-top: 27px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+#section-7{
+  height: 525px;
+  width: 100%;
+}
+#section-7 p{
+  color: #898989;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 24px;
+}
+#parent-sec-7{
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+}
+.contact-icon{
+  display: flex;
+}
+.contact-icon p{
+  padding: 5px 0px 5px 10px
+}
+.cap-sec7{
+  padding-bottom: 40px;
+}
+.child1-sec7{
+  width: 50%;
+}
+.child2-sec7{
+  width: 50%;
+}
+#contact-workinghrs{
+  display: flex;
+  gap: 55px;
+}
+#parent-workinghrs{
+  display: flex;
+  gap: 20px;
+}
+#parent-workinghrs p{
+  padding: 5px 0px 5px 0px
+}
+.sec7-input {
+  padding-left: 15px;
+  border: 1px darkgray solid;
+  height: 35px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: smaller;
+}
+#child2-sec7-form{
+  padding-top: 15px;
+}
+textarea{
+  resize: none;
+}
+#footer{
+  height: 269px;
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+#footer p{
+  font-family: "Poppins", sans-serif;
+  font-size: 12pt;
+}
+#foot1-nav{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: smaller;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
